@@ -8,3 +8,9 @@ DOM allows elements to be changed dynamically or updated using js library or jqu
 means we can change html elements attributes when specific events triggered. e.g, click button. 
 3 methods to change elements. by tag name, by id, and by class name. 
 
+
+Lecture 02.
+Change elements color or text when we click on it. 
+
+
+Lecture 03

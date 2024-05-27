@@ -14,3 +14,14 @@ Change elements color or text when we click on it.
 
 
 Lecture 03
+html css are static programming languages. js is client side, means it communicates with web browser not web server. 
+it allows user web page interactively. 
+http://javascriptkit.com/script/script2/charcount.shtml (code to check how many characters users has entered).
+http://javascriptkit.com/script/cut161.shtml (code for user to enter only 10 words)
+http://javascriptkit.com/script/script2/formrequired.shtml (code for required attribute)
+http://javascriptkit.com/script/script2/accept_term.shtml (code to accept_term)
+
+js cannot be forced on users web browser. must be supported on client web browser. if user has turned off js in browser then it will not work.
+if browser is outdated then some functions may not work properly. most browser support js by default. js in not java. 
+js is object oriented language. means attributes of object are contained in variable like to describe person we have its name, height, color, weight etc., 
+ 

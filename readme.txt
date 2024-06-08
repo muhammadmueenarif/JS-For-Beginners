@@ -61,3 +61,7 @@ if we use script tag in the head or start of body then output will be as "11 bel
 
 Another method for output is window alert. this will output data in popup message box. 
 just change document.write with window.alert and see difference. 
+
+Lec 07. JS Inner html
+it allows to output data in inner html. for example, document.getelementbyid("id).innerhtml=6+3;
+<p id="math"></p>

@@ -1,1 +1,1 @@
-window.alert(5+6);
+document.getElementById("math").innerHTML=6+3;

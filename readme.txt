@@ -199,8 +199,15 @@ Lec 22. JS Math Round Function.
 document.getElementById("math").innerHTML= Math.round(4.7); this will round up the number and show 5.
 
 We can also use math.ceil and math.floor function. floor function will round down the value, and ceil will round up the value even it is below .5.
- take example. 
- document.getElementById("math").innerHTML= Math.ceil(4.2); this will show 5.
- document.getElementById("math").innerHTML= Math.floor(4.7); this will show 4.
+take example. 
+document.getElementById("math").innerHTML= Math.ceil(4.2); this will show 5.
+document.getElementById("math").innerHTML= Math.floor(4.7); this will show 4.
 
- 
+Lec 23. JS Arrays. 
+Used to store multiple values in single variable. we can also type index number of specific value that we want in output. 
+var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
+document.getElementById("math").innerHTML= cars[0]; this will show Toyota.
+
+to check length of array, we can use .length property.
+document.getElementById("math").innerHTML= cars.length; this will show 4.
+

@@ -51,3 +51,13 @@ Lec 05. External JS.
 JS code can be written in external separate file. create new file of js and insert previous lecture code in 
 that separate file. link that js file in html. use script tag in head section. 
 by using separate file, it is easy to maintain code. it increase page loading speed. 
+
+
+Lec 06. JS Output
+Different methods for output in js. first is document.write() method. e.g., 
+<p>Below is result:</p> 
+<script>document.write(6+5);</script> //This will output as "below is result: 11". 
+if we use script tag in the head or start of body then output will be as "11 below is result:".
+
+Another method for output is window alert. this will output data in popup message box. 
+just change document.write with window.alert and see difference. 

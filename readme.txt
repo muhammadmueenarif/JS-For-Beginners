@@ -573,6 +573,20 @@ var x=0;
         // it will stop when x is 11. it will not print 11. it will stop when the condition is false
 
 
+Lec 38. JS Functions.
+a function performs particular task when it is called. 
+A function is a block of code that can be executed repeatedly with different inputs.
+it is used to perform a specific task. it is used to avoid duplicate code.
+it is used to make the code more readable and maintainable.
+it is used to make the code more reusable. it is used to make the code more efficient.
+
+function multiply(a,b) {
+    return a*b;    
+}
+document.getElementById("math").innerHTML= multiply(5,3);
+
+
+
 //This is extra lecture about array methods. not in video. 
 Lec extra. JS Array Iteration Methods.
 Iteration means going through each element of an array.

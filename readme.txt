@@ -310,3 +310,16 @@ var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
 var str = cars.valueOf();
 document.getElementById("math").innerHTML= str; this will show Toyota,Honda,Suzuki,Nissan.
 it will return the primitive value of array.
+
+
+Lec 26. JS Changing and Deleting Elements 
+we can change array elements using using index number. 
+var cars =["Toyota", "Honda", "Civic", "Corolla"]
+cars[0]= "BMW";
+document.getElementById("math").innerHTML= cars; this will change toyota to bmw.
+
+to delete, we can use delete cars[index number].
+var cars= ["Toyota", "Honda", "Civic", "Corolla"]
+delete cars[0];
+document.getElementById("math").innerHTML= cars;
+

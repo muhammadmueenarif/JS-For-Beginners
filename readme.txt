@@ -186,3 +186,10 @@ document.getElementById("math").innerHTML= x;
 Lec 20. JS Random numbers
 we can use Math.random() to generate random numbers between 0 and 1.
 document.getElementById("math").innerHTML= Math.random();
+
+Lec 21. JS Min and Max functions.
+document.getElementById("math").innerHTML= Math.min(500, 600, 300, 100, 40, 1000, 1500);
+this will show minimum value 40.
+
+document.getElementById("math").innerHTML= Math.max(500, 600, 300, 100, 40, 1000, 1500);
+this will show maximum value 1500.

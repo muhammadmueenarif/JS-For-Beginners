@@ -108,4 +108,15 @@ it allows us to compute values of two different data types. like string and numb
 
 Lec 12.  JS Arithmatic Operators.
 Arithmatic operators are used to perform Arithmatic operations on numbers. +, -, *, /, %, ++, --. 
-var x= 100+50. Add two numbers. same for multiply, divide, substract and increment decrement. 
+var x= 100+50. Add two numbers. same for multiply, divide, substract and increment(increase current value of 
+variable by one, if x=5, then use x++, it will become 6). decrement will decrease the current value by one. 
+
+
+Lec 13. JS Operator precedence.
+Operator precedence is the order in which operations are performed in an expression. first bracket, then exponent, 
+then multiplication, division, modulus, then addition, subtraction, then assignment. 
+(two operators having same precedence will be solved according to the order in which they are written).
+
+var x = (20+30)*5;
+
+

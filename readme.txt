@@ -251,12 +251,6 @@ cars.unshift("BMW");
 document.getElementById("math").innerHTML= cars; this will show BMW,Toyota,Honda,Suzuki,Nissan.
 it will add BMW at the beginning of array.
 
-splice() method is used to add or remove elements from array.
-var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
-cars.splice(1, 0, "BMW");
-document.getElementById("math").innerHTML= cars; this will show Toyota,BMW,Honda,Suzuki,Nissan.
-it will add BMW at the second position of array.
-
 var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
 cars.splice(1, 1);
 document.getElementById("math").innerHTML= cars; this will show Toyota,Suzuki,Nissan.
@@ -322,4 +316,43 @@ to delete, we can use delete cars[index number].
 var cars= ["Toyota", "Honda", "Civic", "Corolla"]
 delete cars[0];
 document.getElementById("math").innerHTML= cars;
+
+
+Lec 27. JS Splicing and Array
+Used to specify position of new elements and also if any elements should be remove. 
+splice() method is used to add or remove elements from an array.
+
+splice() method takes three arguments:
+1. position: where to add or remove elements.
+2. number of elements to remove: how many elements to remove.
+3. elements to add: what elements to add.
+
+if we don't specify number of elements to remove, it will remove all elements from specified position.
+if we don't specify elements to add, it will only remove elements.
+if we don't specify number of elements to remove and elements to add, it will add elements at
+specified position.
+splice() method returns an array of removed elements.
+
+
+var cars = ["Toyota", "Honda", "Civic", "Corolla"];
+cars.splice(1, 0, "BMW", "Audi"); 
+//1 means we want to add new value at position 1. 0 means we do not want to remove any other element. 
+document.getElementById("math").innerHTML= cars; this will add BMW and Audi at position 1.
+
+var cars = ["Toyota", "Honda", "Civic", "Corolla"];
+cars.splice(1, 2);
+document.getElementById("math").innerHTML= cars; this will remove Honda and Civic from array.
+
+var cars = ["Toyota", "Honda", "Civic", "Corolla"];
+cars.splice(1, 1, "BMW");
+document.getElementById("math").innerHTML= cars; this will replace Honda with BMW.
+
+
+splice() method is used to add or remove elements from array.
+var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
+cars.splice(1, 0, "BMW");
+document.getElementById("math").innerHTML= cars; this will show Toyota,BMW,Honda,Suzuki,Nissan.
+it will add BMW at the second position of array.
+
+
 

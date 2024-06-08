@@ -414,6 +414,52 @@ if (age > 18) {
 Create a code that will assign grades according to marks of students. 
 
 
+Lec 31. JS Comparisons. 
+In JavaScript, we can compare values using comparison operators. There are several comparison operators in JavaScript:
+
+1. Equal (==)
+    var x=6;
+    document.getElementById("math").innerHTML= (x==6) // true
+
+2. Not Equal (!=)
+
+    var x=6;
+    document.getElementById("math").innerHTML= (x!=7) // true
+    document.getElementById("math").innerHTML= (x!=6) // false
+
+3. Equal value and also equal type (===)
+    var x=6;
+    document.getElementById("math").innerHTML= (x===6) // true
+    document.getElementById("math").innerHTML= (x==="6") // false
+    document.getElementById("math").innerHTML= (x===7) // false
+
+4. Not Equal value or type (!==)
+    var x=6;
+    document.getElementById("math").innerHTML= (x!==7) // true
+    document.getElementById("math").innerHTML= (x!=="6") // true
+    document.getElementById("math").innerHTML= (x!==6) // false
+
+5. Greater Than (>)
+    var x=6;
+    document.getElementById("math").innerHTML= (x>5) // true
+    document.getElementById("math").innerHTML= (x>6) // false
+
+6. Less Than (<)
+    var x=6;
+    document.getElementById("math").innerHTML= (x<7) // true
+    document.getElementById("math").innerHTML= (x<6) // false
+
+7. Greater Than or Equal (>=)
+    var x=6;
+    document.getElementById("math").innerHTML= (x<=6) // true
+    document.getElementById("math").innerHTML= (x<=5) // false
+
+8. Less Than or Equal (<=)
+    var x=6;
+    document.getElementById("math").innerHTML= (x>=6) // true
+    document.getElementById("math").innerHTML= (x>=7) // false
+
+
 
 //This is extra lecture about array methods. not in video. 
 Lec extra. JS Array Iteration Methods.

@@ -193,3 +193,14 @@ this will show minimum value 40.
 
 document.getElementById("math").innerHTML= Math.max(500, 600, 300, 100, 40, 1000, 1500);
 this will show maximum value 1500.
+
+
+Lec 22. JS Math Round Function. 
+document.getElementById("math").innerHTML= Math.round(4.7); this will round up the number and show 5.
+
+We can also use math.ceil and math.floor function. floor function will round down the value, and ceil will round up the value even it is below .5.
+ take example. 
+ document.getElementById("math").innerHTML= Math.ceil(4.2); this will show 5.
+ document.getElementById("math").innerHTML= Math.floor(4.7); this will show 4.
+
+ 

@@ -460,6 +460,27 @@ In JavaScript, we can compare values using comparison operators. There are sever
     document.getElementById("math").innerHTML= (x>=7) // false
 
 
+Lec 32. JS Boolean
+In JavaScript, a boolean is a data type that can have one of two values: true or false. Boolean values are used 
+in conditional statements, such as if/else statements. it is used to check if a condition or expression is true or false. 
+This includes numerical and strng data. 
+var b1= Boolean(80);
+var b2= Boolean(2.86);
+var b3= Boolean(-10);
+var b4= Boolean("Hi");
+var b5= Boolean('false');
+var b6= Boolean(1+8+10.14);
+var b7= Boolean(0);
+document.getElementById("math").innerHTML= 
+"80 is" + b1 + "<br>" + 
+"2.86 is" + b2 + "<br>" + 
+"-10 is" + b3 + "<br>" + 
+"Any (not empty string) is" + b4 + "<br>" + 
+"the string 'false' is" + b5 + "<br>" + 
+"any expression (except zero) is" + b6 + "<br>" + 
+"zero is" + b7;
+
+
 
 //This is extra lecture about array methods. not in video. 
 Lec extra. JS Array Iteration Methods.

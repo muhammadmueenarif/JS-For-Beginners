@@ -1,40 +1,15 @@
-// program for == operator. 
-// var x=6;
-// document.getElementById("math").innerHTML= (x==6) // true
-
-// for != operator. 
-// var x=6;
-// document.getElementById("math").innerHTML= (x!=7) // true
-// document.getElementById("math").innerHTML= (x!=6) // false
-
-// for === operator. 
-// var x=6;
-// document.getElementById("math").innerHTML= (x===6) // true
-// document.getElementById("math").innerHTML= (x==="6") // false
-// document.getElementById("math").innerHTML= (x===7) // false
-
-// for !== operator. 
-// var x=6;
-// document.getElementById("math").innerHTML= (x!==7) // true
-// document.getElementById("math").innerHTML= (x!=="6") // true
-// document.getElementById("math").innerHTML= (x!==6) // false
-
-// for > operator. 
-// var x=6;
-// document.getElementById("math").innerHTML= (x>5) // true
-// document.getElementById("math").innerHTML= (x>6) // false
-
-// for < operator. 
-// var x=6;
-// document.getElementById("math").innerHTML= (x<7) // true
-// document.getElementById("math").innerHTML= (x<6) // false
-
-// for <= operator. 
-// var x=6;
-// document.getElementById("math").innerHTML= (x<=6) // true
-// document.getElementById("math").innerHTML= (x<=5) // false
-
-// for >= operator. 
-var x=6;
-document.getElementById("math").innerHTML= (x>=6) // true
-document.getElementById("math").innerHTML= (x>=7) // false
+var b1= Boolean(80);
+var b2= Boolean(2.86);
+var b3= Boolean(-10);
+var b4= Boolean("Hi");
+var b5= Boolean('false');
+var b6= Boolean(1+8+10.14);
+var b7= Boolean(0);
+document.getElementById("math").innerHTML= 
+"80 is" + b1 + "<br>" + 
+"2.86 is" + b2 + "<br>" + 
+"-10 is" + b3 + "<br>" + 
+"Any (not empty string) is" + b4 + "<br>" + 
+"the string 'false' is" + b5 + "<br>" + 
+"any expression (except zero) is" + b6 + "<br>" + 
+"zero is" + b7;

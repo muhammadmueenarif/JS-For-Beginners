@@ -256,25 +256,6 @@ cars.splice(1, 1);
 document.getElementById("math").innerHTML= cars; this will show Toyota,Suzuki,Nissan.
 it will remove Honda from array.
 
-sort() method is used to sort array in ascending order.
-var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
-cars.sort();
-document.getElementById("math").innerHTML= cars; this will show Honda,Nissan,Suzuki,Toyota.
-it will sort array in ascending order.
-
-reverse() method is used to reverse array.
-var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
-cars.reverse();
-document.getElementById("math").innerHTML= cars; this will show Nissan,Suzuki,Honda,Toyota.
-it will reverse array.
-
-concat() method is used to join two or more arrays.
-var cars1 = ["Toyota", "Honda", "Suzuki"];
-var cars2 = ["Nissan", "BMW"];
-var cars = cars1.concat(cars2);
-document.getElementById("math").innerHTML= cars; this will show Toyota,Honda,Suzuki,Nissan,BMW.
-it will join two arrays.
-
 indexOf() method is used to find the position of element in array.
 var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
 var position = cars.indexOf("Suzuki");
@@ -368,6 +349,12 @@ cars.sort();
 document.getElementById("math").innerHTML= cars; this will show Honda,Nissan,Suzuki,Toyota
 it will sort array in ascending order.
 
+reverse() method is used to reverse array.
+var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
+cars.reverse();
+document.getElementById("math").innerHTML= cars; this will show Nissan,Suzuki,Honda,Toyota.
+it will reverse array.
+
 if we want to sort array in descending order, we use reverse() method.
 var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
 cars.sort();
@@ -389,6 +376,16 @@ var numbers = [40, 100, 1, 5, 25, 10]
 numbers.sort(function(a, b){return b-a});
 document.getElementById("math").innerHTML= numbers; this will show 100,40,25,10
 it will sort array of numbers in descending order.
+
+
+Lec 29. JS Joining Arrays. 
+In JavaScript, we can join two or more arrays using concat() method.
+var cars = ["Toyota", "Honda", "Suzuki"];
+var bikes = ["Yamaha", "Suzuki", "Hero"];
+var vehicles = cars.concat(bikes);
+document.getElementById("math").innerHTML= vehicles; this will show Toyota,Honda,Suzuki,Yamaha
+it will join two arrays.
+Note: concat() method returns a new array, it does not modify the original arrays.
 
 
 //This is extra lecture.

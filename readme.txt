@@ -167,3 +167,17 @@ end of string).
 let's take example. var studentone= 'Ali';
 let studenttwo= "Ahmed";
 document.getElementById("math").innerHTML= studentone +" <br>"+studenttwo;
+
+this will show Ali and Ahmed in two lines.
+
+
+Lec 18. JS String length. 
+we can use .length method to check length of string.  
+var str = 'hello';
+document.getElementById("math").innerHTML= str.length; this will show string length, e.g., 5.
+
+
+Lec 19. JS Special Characters. 
+to use "" inside "", we will use \.
+var x= "we are the best \"players\" in the country";
+document.getElementById("math").innerHTML= x;

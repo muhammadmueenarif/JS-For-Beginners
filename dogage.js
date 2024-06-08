@@ -1,3 +1,2 @@
-var studentone= 'Ali';
-let studenttwo= "Ahmed";
-document.getElementById("math").innerHTML= studentone +"<br>" + studenttwo;
+var x= "we are the best \"players\" in the country";
+document.getElementById("math").innerHTML= x;

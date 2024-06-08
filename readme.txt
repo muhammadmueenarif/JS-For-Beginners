@@ -140,3 +140,8 @@ var car = {type:'Honda', model:'2020', color:'white', seats:'4'}
 document.getElementById("math").innerHTML= car.type; this will show car type in outpur. if we want to show 
 all properties of car, we can use for in loop. if we want to use any other property we will write that like car.color.
 
+
+Lec 16. JS Objects Output. 
+var person = {name:'Ali', eyes:'black', age:'25'}
+document.getElementById("math").innerHTML= person.name + ' has' +' ' +person.eyes +' eyes' + ' at the age of' + ' '
++person.age;

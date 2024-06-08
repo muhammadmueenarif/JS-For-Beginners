@@ -99,3 +99,13 @@ Rules for identifiers.
 10. name should not be same as built-in methods. like tostring, valueof, etc
 
 strings must be written in single or double qoute. 
+
+
+Lec 11. JS Assignment Operator. 
+Assignment operator (=) is used to assign value to variable. value of left side = value of right side. 
+it allows us to compute values of two different data types. like string and numbers. e.g, var number= 30 + 'bananas';
+
+
+Lec 12.  JS Arithmatic Operators.
+Arithmatic operators are used to perform Arithmatic operations on numbers. +, -, *, /, %, ++, --. 
+var x= 100+50. Add two numbers. same for multiply, divide, substract and increment decrement. 

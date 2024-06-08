@@ -145,3 +145,25 @@ Lec 16. JS Objects Output.
 var person = {name:'Ali', eyes:'black', age:'25'}
 document.getElementById("math").innerHTML= person.name + ' has' +' ' +person.eyes +' eyes' + ' at the age of' + ' '
 +person.age;
+
+
+Lec 17. JS String.
+strings store series of characters. single or double qoute. 
+var str = 'hello';
+
+Below are string methods.
+document.getElementById("math").innerHTML= str.toUpperCase(); this will show HELLO.
+document.getElementById("math").innerHTML= str.toLowerCase(); this will show hello.
+document.getElementById("math").innerHTML= str.length; this will show 5.
+document.getElementById("math").innerHTML= str.charAt(0); this will show h.
+document.getElementById("math").innerHTML= str.indexOf('e'); this will show 1.
+document.getElementById("math").innerHTML= str.substring(1,3); this will show el.
+document.getElementById("math").innerHTML= str.replace('h', 'H'); this will show Hello.
+document.getElementById("math").innerHTML= str.concat(' world'); this will show hello world.
+document.getElementById("math").innerHTML= str.split(''); this will show ["h", "e","l", "l", "o"].
+document.getElementById("math").innerHTML= str.trim(); this will show hello (remove spaces from start and
+end of string).
+
+let's take example. var studentone= 'Ali';
+let studenttwo= "Ahmed";
+document.getElementById("math").innerHTML= studentone +" <br>"+studenttwo;

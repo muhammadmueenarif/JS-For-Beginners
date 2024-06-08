@@ -120,3 +120,16 @@ then multiplication, division, modulus, then addition, subtraction, then assignm
 var x = (20+30)*5;
 
 
+Lec 14. JS Data Types.
+Many data types. 
+1. Number: numeric values. e.g., 10, 20, 30.
+2. String: sequence of characters. e.g., "hello", 'hello'.
+3. Array: collection of values. e.g., [10, 20, 30].  
+4. Object: collection of key-value pairs. e.g., {name: 'john', age:'25}'
+5. Undefined: variable declared but not assigned any value.
+6. Null: no value.
+7. Boolean: true or false.
+8. Date: date and time. e.g., new Date('2022-01-01')
+10. Error: error object. e.g., new Error('something went wrong').
+11. Math: math object. e.g., Math.PI.
+12. JSON: json object. e.g., JSON.parse('{"name": "john", "age": 25}');

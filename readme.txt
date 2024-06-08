@@ -133,3 +133,10 @@ Many data types.
 10. Error: error object. e.g., new Error('something went wrong').
 11. Math: math object. e.g., Math.PI.
 12. JSON: json object. e.g., JSON.parse('{"name": "john", "age": 25}');
+
+
+Lec 15. JS Objects.
+var car = {type:'Honda', model:'2020', color:'white', seats:'4'}
+document.getElementById("math").innerHTML= car.type; this will show car type in outpur. if we want to show 
+all properties of car, we can use for in loop. if we want to use any other property we will write that like car.color.
+

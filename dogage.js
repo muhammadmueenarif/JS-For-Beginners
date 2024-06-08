@@ -1,2 +1,2 @@
-var z= (30 + 10)*5;
-document.getElementById("math").innerHTML= 'the results is' + z;
+var car = {type:'Honda', model:'2020', color:'white', seats:'4'}
+document.getElementById("math").innerHTML= car.type;

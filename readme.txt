@@ -518,12 +518,29 @@ while (x<=10) {
     }
     // output: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
     // it will run until the condition is false
-    
+
     // x+=5 means x=x+5
     // x-=5 means x=x-5
     // x*=5 means x=x*5
     // x/=5 means x=x/5
     // x%=5 means x=x%5
+
+
+Lec 36. JS Do while loop.
+A do...while loop is used to execute a block of code at least once, and then continue to execute it as long as 
+the specified condition is true.
+it is used to run a code over and over again each time with different value.
+
+var x=0;
+do {
+    document.write(x+"<br>");
+    x++;
+    } while (x<=10);
+    // output: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+// it will run at least once even if the condition is false. then it will check the condition and run again if true
+it will stop when the condition is false
+it is used when we want to run a code at least once
 
 
 //This is extra lecture about array methods. not in video. 

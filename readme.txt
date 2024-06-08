@@ -211,3 +211,19 @@ document.getElementById("math").innerHTML= cars[0]; this will show Toyota.
 to check length of array, we can use .length property.
 document.getElementById("math").innerHTML= cars.length; this will show 4.
 
+
+Lec 24. JS Array Attributes. 
+We can use tostring() method to output values of array. 
+var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
+document.getElementById("math").innerHTML= cars.toString();
+this will show Toyota,Honda,Suzuki,Nissan. it is separated by comma default. if we want to show that it should be
+separated by any other symbol we can use join() method. 
+document.getElementById("math").innerHTML= cars.join(" - ");
+this will show Toyota - Honda - Suzuki - Nissan.
+
+
+we can use .push() method to add new value in array.
+var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
+cars.push("BMW");
+document.getElementById("math").innerHTML= cars; this will show all values including BMW.
+

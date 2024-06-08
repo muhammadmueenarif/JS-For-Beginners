@@ -181,3 +181,8 @@ Lec 19. JS Special Characters.
 to use "" inside "", we will use \.
 var x= "we are the best \"players\" in the country";
 document.getElementById("math").innerHTML= x;
+
+
+Lec 20. JS Random numbers
+we can use Math.random() to generate random numbers between 0 and 1.
+document.getElementById("math").innerHTML= Math.random();

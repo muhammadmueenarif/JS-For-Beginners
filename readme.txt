@@ -586,6 +586,20 @@ function multiply(a,b) {
 document.getElementById("math").innerHTML= multiply(5,3);
 
 
+Lec 39. JS events.
+onclick, onmouseover, onmouseout, key down, document load. 
+
+an event is an action that occurs when a user interacts with a web page.
+it is used to trigger a function when a user interacts with a web page.
+it is used to make a web page more interactive, dynamic, responsive, user-friendly, engaging.
+
+    <button onmouseover="time()">Time</button>
+    <p id="math"></p> 
+ 
+    function time() {
+    document.getElementById("math").innerHTML=Date();
+}
+
 
 //This is extra lecture about array methods. not in video. 
 Lec extra. JS Array Iteration Methods.

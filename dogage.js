@@ -1,4 +1,3 @@
-function multiply(a,b) {
-    return a*b;    
+function time() {
+    document.getElementById("math").innerHTML=Date();
 }
-document.getElementById("math").innerHTML= multiply(5,3);

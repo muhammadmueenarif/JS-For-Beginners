@@ -24,4 +24,24 @@ http://javascriptkit.com/script/script2/accept_term.shtml (code to accept_term)
 js cannot be forced on users web browser. must be supported on client web browser. if user has turned off js in browser then it will not work.
 if browser is outdated then some functions may not work properly. most browser support js by default. js in not java. 
 js is object oriented language. means attributes of object are contained in variable like to describe person we have its name, height, color, weight etc., 
- 
+
+
+Lecture 04
+we can put script tag in head tag to use js. it is because the head tag is load first when browser opens. 
+if we put it in the body tag then there maybe some issue that some functions in code will not work as they will not be loaded properly. 
+
+let's create a code to check age in dog years. 
+ <script type="text/javascript">
+                    function dogAge() {
+
+                        console.log('form1',form1.humanage.value);
+                        var yourage= form1.humanage.value*7;
+                        alert("your age in dogyears is:"+ yourage);
+                        
+                    }
+    </script>
+
+       <form id="form1">
+        <input type="number" placeholder="enter age" id="humanage">
+        <button onclick="dogAge()">Click me</button>
+    </form>

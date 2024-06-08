@@ -508,6 +508,24 @@ for (var x in person) {
         // output: fname:John, lname:Doe, age:25
 
 
+Lec 35. JS While loop.
+A while loop is used to execute a block of code as long as the specified condition is true.
+it is used to run a code over and over again each time with different value.
+var x=0;
+while (x<=10) {
+    document.write(x+"<br>");
+    x++;
+    }
+    // output: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+    // it will run until the condition is false
+    
+    // x+=5 means x=x+5
+    // x-=5 means x=x-5
+    // x*=5 means x=x*5
+    // x/=5 means x=x/5
+    // x%=5 means x=x%5
+
+
 //This is extra lecture about array methods. not in video. 
 Lec extra. JS Array Iteration Methods.
 Iteration means going through each element of an array.

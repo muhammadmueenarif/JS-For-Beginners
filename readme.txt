@@ -45,3 +45,9 @@ let's create a code to check age in dog years.
         <input type="number" placeholder="enter age" id="humanage">
         <button onclick="dogAge()">Click me</button>
     </form>
+
+
+Lec 05. External JS.
+JS code can be written in external separate file. create new file of js and insert previous lecture code in 
+that separate file. link that js file in html. use script tag in head section. 
+by using separate file, it is easy to maintain code. it increase page loading speed. 

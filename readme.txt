@@ -481,6 +481,14 @@ document.getElementById("math").innerHTML=
 "zero is" + b7;
 
 
+Lec 33. JS for loop.
+A for loop is used to execute a block of code as long as the specified condition is true.
+it is used to run a code over and over again each time with different value.
+
+    for (var x=0; x<=10; x++) {
+    document.write(x+"<br>");
+    }
+
 
 //This is extra lecture about array methods. not in video. 
 Lec extra. JS Array Iteration Methods.

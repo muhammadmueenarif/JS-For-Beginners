@@ -356,3 +356,127 @@ it will add BMW at the second position of array.
 
 
 
+Lec 28. JS Sorting an Array.
+Sorting an array means arranging elements in a specific order. There are two types of sorting:
+1. Ascending order: arranging elements from smallest to largest.
+2. Descending order: arranging elements from largest to smallest.
+In JavaScript, we use sort() method to sort an array.
+
+sort() method sorts an array in ascending order.
+var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
+cars.sort();
+document.getElementById("math").innerHTML= cars; this will show Honda,Nissan,Suzuki,Toyota
+it will sort array in ascending order.
+
+if we want to sort array in descending order, we use reverse() method.
+var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
+cars.sort();
+cars.reverse();
+document.getElementById("math").innerHTML= cars; this will show Toyota,Suzuki,Nissan,Honda
+it will sort array in descending order.
+
+Note: sort() method sorts array in lexicographical order (alphabetical order).
+
+//Not in video but understand. 
+If we want to sort array of numbers, we need to use a compare function.
+var numbers = [40, 100, 1, 5, 25, 10]
+numbers.sort(function(a, b){return a-b});
+document.getElementById("math").innerHTML= numbers; this will show 1,5,10,25
+it will sort array of numbers in ascending order.
+
+if we want to sort array of numbers in descending order, we use compare function with b-a.
+var numbers = [40, 100, 1, 5, 25, 10]
+numbers.sort(function(a, b){return b-a});
+document.getElementById("math").innerHTML= numbers; this will show 100,40,25,10
+it will sort array of numbers in descending order.
+
+
+//This is extra lecture.
+Lec extra. JS Array Iteration Methods.
+Iteration means going through each element of an array.
+There are several methods to iterate through an array in JavaScript.
+
+1. for loop: it is used to iterate through an array.
+var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
+for (var i = 0; i < cars.length; i++) {
+    document.getElementById("math").innerHTML += cars[i] + "<br>";
+    } it will show each element of array on a new line.
+
+2. for...of loop: it is used to iterate through an array.
+    var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
+    for (var car of cars) {
+        document.getElementById("math").innerHTML += car + "<br>";
+        }   it will show each element of array on a new line.
+
+3. forEach() method: it is used to iterate through an array.
+        var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
+        cars.forEach(function(car) {
+            document.getElementById("math").innerHTML += car + "<br>";
+            }); it will show each element of array on a new line.
+
+4. map() method: it is used to iterate through an array and return a new array with modified elements.
+            var numbers = [1, 2, 3, 4, 5];
+            var doubleNumbers = numbers.map(function(num) {
+                return num * 2;
+                });
+        document.getElementById("math").innerHTML = doubleNumbers; it will show [2, 4, 6, 8, 10]
+
+5. filter() method: it is used to iterate through an array and return a new array with elements that pass a test.
+                var numbers = [1, 2, 3, 4, 5];
+                var evenNumbers = numbers.filter(function(num) {
+                    return num % 2 === 0;
+                    });
+        document.getElementById("math").innerHTML = evenNumbers; it will show [2, 4]
+
+6. reduce() method: it is used to iterate through an array and return a single value.
+            var numbers = [1, 2, 3, 4, 5];
+            var sum = numbers.reduce(function(total, num) {
+                    return total + num;
+                        }, 0);
+            document.getElementById("math").innerHTML = sum; it will show 15
+
+7. every() method: it is used to iterate through an array and return true if all elements pass a test.
+                var numbers = [1, 2, 3, 4, 5];
+                var allPositive = numbers.every(function(num) {
+                return num > 0;
+                });
+            document.getElementById("math").innerHTML = allPositive;   it will show true
+
+8. some() method: it is used to iterate through an array and return true if at least one element passes a test.
+            var numbers = [1, 2, 3, 4, 5];
+            var hasThree = numbers.some(function(num) {
+                return num === 3;
+        });
+            document.getElementById("math").innerHTML = hasThree; it will show true
+
+9. indexOf() method: it is used to find the index of the first occurrence of a specified element in an array.
+            var fruits = ["apple", "banana", "cherry"];
+            var index = fruits.indexOf("banana");
+            document.getElementById("math").innerHTML = index; it will show 1
+
+10. lastIndexOf() method: it is used to find the index of the last occurrence of a specified element in an array.
+            var fruits = ["apple", "banana", "cherry", "banana"];
+            var index = fruits.lastIndexOf("banana");
+            document.getElementById("math").innerHTML = index; it will show 3
+
+11. includes() method: it is used to check if an array includes a specified element.
+            var fruits = ["apple", "banana", "cherry"];
+            var includes = fruits.includes("banana");
+            document.getElementById("math").innerHTML = includes; it will show true
+
+12. find() method: it is used to return the value of the first element in an array that satisfies a provided
+testing function.
+            var numbers = [1, 2, 3, 4, 5];
+            var found = numbers.find(function(num) {
+            return num > 3;
+        });
+        document.getElementById("math").innerHTML = found;    it will show 4
+
+13. findIndex() method: it is used to return the index of the first element in an array that satisfies a
+ provided testing function.
+    var numbers = [1, 2, 3, 4, 5];
+    var foundIndex = numbers.findIndex(function(num) {
+        return num > 3;
+        });
+    document.getElementById("math").innerHTML = foundIndex;    it will show 3.
+

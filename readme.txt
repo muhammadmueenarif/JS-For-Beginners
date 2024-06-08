@@ -65,3 +65,13 @@ just change document.write with window.alert and see difference.
 Lec 07. JS Inner html
 it allows to output data in inner html. for example, document.getelementbyid("id).innerhtml=6+3;
 <p id="math"></p>
+
+Lec 08. JS Comments. comments are not shown in output. these are to understand the code. 
+// is used for single line comments and 
+/* */ is used for multi line comments. used for explaining large line of code. 
+
+Lec 09. JS Constants. 
+the fixed values that can't be changes. which are independent of other. the values that does not depend on others.
+like 6+3, in lec 07 are Constants. these are fixed. Constants can be numbers or integers or strings. you can use single 
+qoute or double qoute strings. if we  add a string with a number, it will combine those values. 
+e.g., "hello" + 6 = "hello6". if we use '6'+3, it will output 63. 

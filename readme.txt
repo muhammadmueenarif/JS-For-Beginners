@@ -221,9 +221,92 @@ separated by any other symbol we can use join() method.
 document.getElementById("math").innerHTML= cars.join(" - ");
 this will show Toyota - Honda - Suzuki - Nissan.
 
-
 we can use .push() method to add new value in array.
 var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
 cars.push("BMW");
 document.getElementById("math").innerHTML= cars; this will show all values including BMW.
 
+
+Lec 25. JS Arrays. Pop, Push, Shift, Unshift. 
+pop() method is used to remove last element of array.
+var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
+cars.pop();
+document.getElementById("math").innerHTML= cars; this will show Toyota,Honda,Suzuki.
+it will remove Nissan from array.
+
+push() method is used to add new element at the end of array.
+var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
+cars.push("BMW");
+document.getElementById("math").innerHTML= cars; this will show Toyota,Honda,Suzuki,Nissan,BMW.
+
+shift() method is used to remove first element of array.
+var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
+cars.shift();
+document.getElementById("math").innerHTML= cars; this will show Honda,Suzuki,Nissan.
+it will remove Toyota from array.
+
+unshift() method is used to add new element at the beginning of array.
+var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
+cars.unshift("BMW");
+document.getElementById("math").innerHTML= cars; this will show BMW,Toyota,Honda,Suzuki,Nissan.
+it will add BMW at the beginning of array.
+
+splice() method is used to add or remove elements from array.
+var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
+cars.splice(1, 0, "BMW");
+document.getElementById("math").innerHTML= cars; this will show Toyota,BMW,Honda,Suzuki,Nissan.
+it will add BMW at the second position of array.
+
+var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
+cars.splice(1, 1);
+document.getElementById("math").innerHTML= cars; this will show Toyota,Suzuki,Nissan.
+it will remove Honda from array.
+
+sort() method is used to sort array in ascending order.
+var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
+cars.sort();
+document.getElementById("math").innerHTML= cars; this will show Honda,Nissan,Suzuki,Toyota.
+it will sort array in ascending order.
+
+reverse() method is used to reverse array.
+var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
+cars.reverse();
+document.getElementById("math").innerHTML= cars; this will show Nissan,Suzuki,Honda,Toyota.
+it will reverse array.
+
+concat() method is used to join two or more arrays.
+var cars1 = ["Toyota", "Honda", "Suzuki"];
+var cars2 = ["Nissan", "BMW"];
+var cars = cars1.concat(cars2);
+document.getElementById("math").innerHTML= cars; this will show Toyota,Honda,Suzuki,Nissan,BMW.
+it will join two arrays.
+
+indexOf() method is used to find the position of element in array.
+var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
+var position = cars.indexOf("Suzuki");
+document.getElementById("math").innerHTML= position; this will show 2.
+it will show the position of Suzuki in array.
+
+lastIndexOf() method is used to find the last position of element in array.
+var cars = ["Toyota", "Honda", "Suzuki", "Nissan", "Suzuki"];
+var position = cars.lastIndexOf("Suzuki");
+document.getElementById("math").innerHTML= position; this will show 4.
+it will show the last position of Suzuki in array.
+
+join() method is used to join array elements into a string.
+var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
+var str = cars.join(",");
+document.getElementById("math").innerHTML= str; this will show Toyota,Honda,Suzuki,Nissan.
+it will join array elements into a string.
+
+toString() method is used to convert array into a string.
+var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
+var str = cars.toString();
+document.getElementById("math").innerHTML= str; this will show Toyota,Honda,Suzuki,Nissan.
+it will convert array into a string.
+
+valueOf() method is used to return the primitive value of array.
+var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
+var str = cars.valueOf();
+document.getElementById("math").innerHTML= str; this will show Toyota,Honda,Suzuki,Nissan.
+it will return the primitive value of array.

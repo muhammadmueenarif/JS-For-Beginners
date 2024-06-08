@@ -251,6 +251,7 @@ cars.unshift("BMW");
 document.getElementById("math").innerHTML= cars; this will show BMW,Toyota,Honda,Suzuki,Nissan.
 it will add BMW at the beginning of array.
 
+//These below are extra. not in video. 
 var cars = ["Toyota", "Honda", "Suzuki", "Nissan"];
 cars.splice(1, 1);
 document.getElementById("math").innerHTML= cars; this will show Toyota,Suzuki,Nissan.
@@ -388,7 +389,33 @@ it will join two arrays.
 Note: concat() method returns a new array, it does not modify the original arrays.
 
 
-//This is extra lecture.
+Lec 30. JS Conditional Statements. 
+Conditional statements are used to perform different actions based on different conditions.
+There are three types of conditional statements in JavaScript:
+1. if statement
+2. if else statement
+3. switch statement
+if statement:
+var age = 25;
+if (age > 18) {
+    document.getElementById("math").innerHTML = "You are eligible to vote.";
+    }
+    it will show "You are eligible to vote." because age is greater than 18.
+
+if else statement:
+var age = 15;
+if (age > 18) {
+    document.getElementById("math").innerHTML = "You are eligible to vote.";
+    } else {
+        document.getElementById("math").innerHTML = "You are not eligible to vote.";
+        }
+        it will show "You are not eligible to vote." because age is less than 18.
+
+Create a code that will assign grades according to marks of students. 
+
+
+
+//This is extra lecture about array methods. not in video. 
 Lec extra. JS Array Iteration Methods.
 Iteration means going through each element of an array.
 There are several methods to iterate through an array in JavaScript.

@@ -490,6 +490,24 @@ it is used to run a code over and over again each time with different value.
     }
 
 
+Lec 34. JS For in loop.
+A for...in loop is used to loop through the properties of an object. it is used to run a code for each 
+property of an object.
+
+var person={fname:"John", lname:"Doe", age:25};
+for (var x in person) {
+    document.write(x+"<br>");
+    }
+    // output: fname, lname, age
+
+
+// to get the value of each property
+for (var x in person) {
+        document.write(x+":"+person[x]+"<br>");
+        }
+        // output: fname:John, lname:Doe, age:25
+
+
 //This is extra lecture about array methods. not in video. 
 Lec extra. JS Array Iteration Methods.
 Iteration means going through each element of an array.

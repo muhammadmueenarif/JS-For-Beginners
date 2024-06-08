@@ -1,4 +1,11 @@
-// program to print first 10 numbers from 0 10 using for loop.
-for (var x=0; x<=10; x++) {
-    document.write(x+"<br>");
-}
+var person={fname:"John", lname:"Doe", age:25};
+// for (var x in person) {
+//     document.write(x+"<br>");
+//     }
+// output: fname, lname, age
+
+// to get the value of each property
+for (var x in person) {
+    document.write(x+":"+person[x]+"<br>");
+    }
+    // output: fname:John, lname:Doe, age:25

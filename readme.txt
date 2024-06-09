@@ -633,6 +633,11 @@ function changeColor() {
 //Each time the code is run, a different color will be selected.
 
 
+Lec 41. JS Photo Gallery Project.
+Different pictures will be showing in screen header. on which user will hover, it will show that picture in body.
+also it has hover effect that on which picture we hover, it will have border.  
+
+
 
 
 //This is extra lecture about array methods. not in video. 
